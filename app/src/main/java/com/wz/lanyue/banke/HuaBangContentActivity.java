@@ -117,6 +117,7 @@ public class HuaBangContentActivity extends AppCompatActivity implements View.On
         tvHuaBangMiaoshu = (TextView) findViewById(R.id.tvHuaBangMiaoshu);
         circleImageView = (CircleImageView) findViewById(R.id.ccivHuaBangpic);
         tvvideoload= (TextView) findViewById(R.id.tvvideoload);
+
         initdata();
 
     }
@@ -369,10 +370,5 @@ public class HuaBangContentActivity extends AppCompatActivity implements View.On
         super.onPause();
         progress = videoView.getCurrentPosition();
     }
-    private void donwload(){
 
-       x.http()
-
-
-    }
 }

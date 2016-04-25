@@ -4,13 +4,13 @@
     <color name="mediacontroller_bg">#99000000</color>
     <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
     <color name="transparent">#00000000</color>
-    <string name="VideoView_error_button">OK</string>
-    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+    <string name="VideoView_error_button">确定</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">对不起, 这个视频无效
         this device.
     </string>
-    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played.</string>
-    <string name="VideoView_error_title">Cannot play video</string>
-    <string name="mediacontroller_play_pause">Play/Pause</string>
+    <string name="VideoView_error_text_unknown">对不起,这个视频不能播放.</string>
+    <string name="VideoView_error_title">不能播放视频</string>
+    <string name="mediacontroller_play_pause">播放/暂停</string>
     <string name="permission_group_tools_description">Access Vitamio package and resources.</string>
     <string name="permission_group_tools_label">Vitamio tools</string>
     <string name="permission_receive_messages_description">Receive all broadcasts from Vitamio service.</string>

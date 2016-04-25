@@ -30,7 +30,7 @@ public static final String socialurl="http://apis.baidu.com/txapi/social/social"
     private static final String huabangurl="http://mapi.yinyuetai.com/video/list.json?D-A=0&";
     private static  final String huangbangdeviceinfo="%7B%22aid%22%3A%2210201034%22%2C%22os%22%3A%22Android%22%2C%22ov%22%3A%225.1%22%2C%22rn%22%3A%22480*800%22%2C%22dn%22%3A%22PRO%205%22%2C%22cr%22%3A%2246001%22%2C%22as%22%3A%22WIFI%22%2C%22uid%22%3A%2239ab47db579b75d4e69db2b52288fef6%22%2C%22clid%22%3A110011000%7D";
     private static final String huabangHeadpicurl="http://mapi.yinyuetai.com/video/show.json?D-A=0&";
-
+private static final String huabangSearchurl="http://mapi.yinyuetai.com/search/video.json?D-A=0&offset=0&size=20&keyword=";
     @Override
     public void onCreate() {
         super.onCreate();
@@ -45,5 +45,9 @@ public static final String socialurl="http://apis.baidu.com/txapi/social/social"
     }
     public static String getHuaBanghendpicUrl(int id){
         return huabangHeadpicurl+"id="+id+"&relatedVideos=true&deviceinfo="+huangbangdeviceinfo;
+    }
+    public static String getHuabangSearchurl(String KeyWord){
+
+        return huabangSearchurl+KeyWord+"&deviceinfo="+huangbangdeviceinfo;
     }
 }
